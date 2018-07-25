@@ -409,8 +409,7 @@ func startFront(nodesCount int) error {
 
 		args := make([]string, 0)
 		args = append(args,
-			"--dry",
-			fmt.Sprintf(`--socket-url=%s`, centrifugoURL),
+			"--dry", "--disable-full-nodes-sync",
 			fmt.Sprintf(`--full-node=%s`, apiURL),
 			fmt.Sprintf(`--private-key=%s`, string(key)))
 
