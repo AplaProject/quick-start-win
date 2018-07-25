@@ -9,14 +9,14 @@ import (
 )
 
 const (
-	binaryBackName  = "go-genesis.exe"
-	binaryFrontName = "Genesis.exe"
+	binaryBackName  = "go-apla.exe"
+	binaryFrontName = "Apla.exe"
 
 	dbHost        = "localhost"
 	dbPort        = 5430
 	dbUser        = "postgres"
 	dbPassword    = "postgres"
-	dbNamePattern = "genesis%d"
+	dbNamePattern = "apla%d"
 
 	centrifugoSecret = "secret"
 	centrifugoPort   = 8000
